@@ -1,103 +1,69 @@
-import './App.css'; // Make sure to add your CSS for the classes
-
+import { useEffect } from 'react';
+import './App.css'; 
 const App = () => {
-  // const words = ["React Developer", "React  Developer", " & UX &nbsp; Designer"]; // Replace with your actual words
-  // const [currentWordIndex, setCurrentWordIndex] = useState(0);
 
-  // useEffect(() => {
-  //   // Split words into letters and wrap them in spans on component mount
-  //   const wordElements = document.querySelectorAll('.word');
-  //   wordElements.forEach((word) => {
-  //     let letters = word.textContent.split("");
-  //     word.textContent = "";
-  //     letters.forEach((letter) => {
-  //       let span = document.createElement("span");
-  //       span.textContent = letter;
-  //       span.className = letter;
-  //       word.appendChild(span);
-  //     });
-  //   });
+  useEffect(() => {
 
-  //   // Set the opacity of the first word
-  //   if (wordElements[0]) {
-  //     wordElements[0].style.opacity = "1";
-  //   }
+    //active menu //
+    const menuLi = document.querySelectorAll('header ul li a');
+    const sections = document.querySelectorAll('section');
 
-  //   // Set up interval for text change
-  //   const interval = setInterval(() => {
-  //     changeText();
-  //   }, 4000); // Change text every 4 seconds
+    const activeMenu = () => {
+      let len = sections.length;
+      while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
+      menuLi.forEach(sec => sec.classList.remove('active'));
+      menuLi[len].classList.add('active');
+    };
 
-  //   return () => clearInterval(interval); // Cleanup interval on component unmount
-  // }, [currentWordIndex]);
+    activeMenu();
+    window.addEventListener('scroll', activeMenu);
 
-  // const changeText = () => {
-  //   const wordElements = document.querySelectorAll('.word');
-  //   const maxWordIndex = wordElements.length - 1;
+    // Cleanup function to remove the event listener
+    return () => {
+      window.removeEventListener('scroll', activeMenu);
+    };
+  }, []);
 
-  //   const currentWord = wordElements[currentWordIndex];
-  //   const nextWord = currentWordIndex === maxWordIndex ? wordElements[0] : wordElements[currentWordIndex + 1];
+ //active menu //
+ useEffect(() => {
+  const header = document.querySelector('header');
 
-  //   Array.from(currentWord.children).forEach((letter, i) => {
-  //     setTimeout(() => {
-  //       letter.className = "Letter out";
-  //     }, i * 80);
-  //   });
+  const handleScroll = () => {
+    header.classList.toggle('sticky', window.scrollY > 50);
+  };
 
-  //   nextWord.style.opacity = "1";
-  //   Array.from(nextWord.children).forEach((letter, i) => {
-  //     letter.className = "Letter behind";
-  //     setTimeout(() => {
-  //       letter.className = "Letter in";
-  //     }, 340 + i * 80);
-  //   });
+  window.addEventListener('scroll', handleScroll);
 
-  //   setCurrentWordIndex(currentWordIndex === maxWordIndex ? 0 : currentWordIndex + 1);
-  // };
+  // Cleanup function to remove the event listener
+  return () => {
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
 
-  // return (
-  //   <div className="word-container">
-  //     {words.map((word, index) => (
-  //       <div className="word" key={index} style={{ opacity: index === 0 ? 1 : 0 }}>
-  //         {word}
-  //       </div>
-  //     ))}
-  //   </div>
-  // );
+useEffect(() => {
+  const menuIcon = document.querySelector('#menu-icon');
+  const navList = document.querySelector('.navList');
 
-//   const word = document.querySelectorAll(".word");
-//   const changeWord = () => {
-//     setTimeout(() => {
-//       word.wordContent = "React&nbsp;Developer";
-//     }, 0);
-//     setTimeout(() => {
-//       word.wordContent = "Frontend &nbsp; React &nbsp; Developer ";
-//     }, 400);
-//     setTimeout(() => {
-//       word.wordContent = " UI & UX &nbsp; Designer ";
-//     },800);
-//     setTimeout(() => {
-//       word.wordContent = "  Web &nbsp; Designer ";
-//     }, 1200);
-//   }
-//   changeWord();
+  const handleClick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navList.classList.toggle('open');
+  };
 
-const circles = document.querySelectorAll('circle');
-circles.forEach(elem =>{
-  var dots = elem.getAttribute("data-dots");
-  var marked = elem.getAttribute("data-percent");
-  var percent = Math.floor(dots*marked/100);
-  var points = "";
-  var rotate = 360/dots;
+  const handleScroll = () => {
+    menuIcon.classList.remove('bx-x');
+    navList.classList.remove('open');
+  };
 
+  menuIcon.addEventListener('click', handleClick);
+  window.addEventListener('scroll', handleScroll);
 
-  for(let i = 0; i < dots; i++) {
-    points += `<div className="points" style={style='--i:${i}; --rot:${rotate}deg'}></div>`;
-  }
-  elem.innerHTML = points;
-})
+  // Cleanup event listeners on component unmount
+  return () => {
+    menuIcon.removeEventListener('click', handleClick);
+    window.removeEventListener('scroll', handleScroll);
+  };
+}, []);
+
 };
-
-
 
 export default App;

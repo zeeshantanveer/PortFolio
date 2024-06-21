@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
+import Content from './content';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,7 @@ root.render(
               <span>A</span>reeba.
             </div>
             <ul className='navList'>
-              <li><a href="#home">Home</a></li>
+              <li><a href="/home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#skills">Skills</a></li>
@@ -53,10 +54,10 @@ root.render(
 
 
               <div className="social-icons">
-                <a href="/facebook" title='facebook'><i class='bx bxl-facebook'></i></a>
-                <a href="/instagram"  title='instagram'><i class='bx bxl-instagram' ></i></a>
-                <a href="/linkedin"  title='linkedin'><i class='bx bxl-linkedin' ></i></a>
-                <a href="/github"  title='github'><i class='bx bxl-github' ></i></a>
+                <a href="/facebook" title='facebook'><i className='bx bxl-facebook'></i></a>
+                <a href="/instagram"  title='instagram'><i className='bx bxl-instagram' ></i></a>
+                <a href="/linkedin"  title='linkedin'><i className='bx bxl-linkedin' ></i></a>
+                <a href="/github"  title='github'><i className='bx bxl-github' ></i></a>
               </div>
             </div>
 
@@ -99,7 +100,7 @@ root.render(
 
             <div className="section_services">
               <div className="service-box">
-                <i class='bx bxs-layer service-icon'></i>
+                <i className='bx bxs-layer service-icon'></i>
                 <h3>React Developer</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aliquam, excepturi ipsam perferendis totam. Vitae quaerat nostrum enim. Omnis dicta, dolores iusto similique possimus nisi excepturi itaque. Tempore, perferendis! Lorem ipsum dolor.
@@ -111,7 +112,7 @@ root.render(
               </div>
 
               <div className="service-box">
-                <i class='bx bx-desktop service-icon'></i>
+                <i className='bx bx-desktop service-icon'></i>
                 <h3>React Developer</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aliquam, excepturi ipsam perferendis totam. Vitae quaerat nostrum enim. Omnis dicta, dolores iusto similique possimus nisi excepturi itaque. Tempore, perferendis! Lorem ipsum dolor.
@@ -123,7 +124,7 @@ root.render(
               </div>
 
               <div className="service-box">
-                <i class='bx bx-code-alt service-icon'></i>
+                <i className='bx bx-code-alt service-icon'></i>
                 <h3>React Developer</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aliquam, excepturi ipsam perferendis totam. Vitae quaerat nostrum enim. Omnis dicta, dolores iusto similique possimus nisi excepturi itaque. Tempore, perferendis! Lorem ipsum dolor.
@@ -153,7 +154,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>Html</p>
-                    <p>85%</p>
+                    <p>87%</p>
                   </div>
                   <div className="bar">
                     <span className='html'></span>
@@ -217,50 +218,252 @@ root.render(
               </div>
 
               <div className="skill-right">
-              <h3>Professional Skills</h3>
-              <div className="professional">
-                <div className="box">
-                <div className="circle"  data-dots={"80"} data-percen={"90"}></div>
+                <h3>Professional Skills</h3>
+                <div className="radial-bars">
 
-                  <div className="text">
-                    <big>90%</big>
-                    <small>Team Work</small>
+                  <div className="radial-bar">
+                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                        <circle className='path path-1'  cx={"100"} cy={"100"} r={"80"}></circle>
+                    </svg>
+                    <div className='Percentage'>90%</div>
+                    <div className='text'>Creativity</div>
                   </div>
+
+                  <div className="radial-bar">
+                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                        <circle className='path path-2'  cx={"100"} cy={"100"} r={"80"}></circle>
+                    </svg>
+                    <div className='Percentage'>90%</div>
+                    <div className='text'>Creativity</div>
+                  </div>
+
+                  <div className="radial-bar">
+                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                        <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                    </svg>
+                    <div className='Percentage'>90%</div>
+                    <div className='text'>Creativity</div>
+                  </div>
+
+                  <div className="radial-bar">
+                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                        <circle className='path path-4'  cx={"100"} cy={"100"} r={"80"}></circle>
+                    </svg>
+                    <div className='Percentage'>90%</div>
+                    <div className='text'>Creativity</div>
+                  </div>
+
+                  <div className="radial-bar">
+                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                        <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                    </svg>
+                    <div className='Percentage'>90%</div>
+                    <div className='text'>Creativity</div>
+                  </div>
+
+                  <div className="radial-bar">
+                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                        <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                    </svg>
+                    <div className='Percentage'>90%</div>
+                    <div className='text'>Creativity</div>
+                  </div>
+
                 </div>
 
-                <div className="box">
-                <div className="circle"  data-dots={"80"} data-percen={"90"}></div>
-
-                  <div className="text">
-                    <big>90%</big>
-                    <small>Team Work</small>
-                  </div>
-                </div>
-
-                <div className="box">
-                <div className="circle"  data-dots={"80"} data-percen={"90"}></div>
-
-                  <div className="text">
-                    <big>90%</big>
-                    <small>Team Work</small>
-                  </div>
-                </div>
-
-                <div className="box">
-                  <div className="circle" data-dots={"80"} data-percen={"90"}></div>
-
-                  <div className="text">
-                    <big>90%</big>
-                    <small>Team Work</small>
-                  </div>
-                </div>
-
-                
               </div>
-              </div>
+
             </div>
 
           </section>
+
+            {/* PORTFOLIO-SECTION */}
+
+          <section id='portfolio' className='portfolio'>
+              <div className="main-text">
+                <span>What i will do for you</span>
+                <h2>Lastest Projects</h2>
+              </div>
+
+              <div className="container">
+                <div className="filter-buttons">
+                  <button className="btn" id='all' >All</button>
+                  <button className="btn" id='product'>Product </button>
+                  <button className="btn" id='inter'>Interacting  </button>
+                  <button className="btn" id='web'>Web App  </button>
+                </div>
+              </div>
+
+              <div className="portfolio-gallery">
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/1.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                      Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+
+                </div>
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/2.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/3.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/4.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/5.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/6.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>  
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/6.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>
+
+
+                <div className="port-box">
+                  <div className="port-image">
+                    <img src='/img/6.jpg' alt='img1'/>
+                  </div>
+
+                  <div className="port-content">
+                    <h3>Graphic Designer</h3>
+                     <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati reiciendis repudiandae debitis. 
+                     Rerum, maiores fugiat.
+                    </p>
+                    <a href="/" title='link'><i className='bx bx-link-external'></i></a>
+                  </div>
+                  
+                </div>
+
+              </div>
+
+          </section>
+
+            {/* CONTACT-SECTION */}
+
+          <section id="contact" className="contact">
+            
+              <div className="main-text">
+                <span>ask me question </span>
+                <h2>Contact Me</h2>
+              </div>
+
+              <form action="/" autocomplete="on">
+               
+                <input type="text" name='name' id='name' autoComplete='name' placeholder='Your Name' />
+                <input type="text" name='email' id='email' autoComplete='email' placeholder='Your Email' />
+                <input type="text" name='address' id='address' autoComplete='address' placeholder='Your Address' />
+                <input type="number" name='number' id='number' placeholder='Phone Number' />
+                <textarea name="mesg" id="mesg" cols={30} rows={10} placeholder='Your Message'></textarea>
+
+                <div className="btn-box formBtn">
+                  <button type='submit' className='btn'>Send Me</button>
+                </div>
+              </form>
+          </section>
+
+            {/* FOOTER-SECTION */}
+
+          <footer>
+            <p>copyright &copy; 2024  by Areeba Coder || All Right Reserved.</p>
+            <a href="#home" title='link'><i className='bx bx-up-arrow-alt'></i></a>
+          </footer>
 
     </>
 
