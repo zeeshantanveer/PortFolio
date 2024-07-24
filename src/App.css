@@ -147,23 +147,27 @@ section {
 .change-text {
   font-size: 1.5rem;
   font-weight: 600;
+  display: inline-flex;
 }
 
 .change-text h3 {
-  display: inline-flex;
   margin: 0;
-  vertical-align: top;
-  /* padding-bottom: 5px; */
-}
+  margin-right: 10px;
+} 
 
-.change-text span .word{
+.change-text span .auto-type{
   content: "";
   position: absolute;
+  font-size: 1.5rem;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
   animation: animate 4s steps(12) infinite;
+}
+
+.change-text .auto-type {
+  margin-top: 3px;
 }
 
 .home-content p {

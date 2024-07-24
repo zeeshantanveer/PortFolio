@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-
 import PortfolioSection from './sections/portfolio';
+import Typewriter from 'typewriter-effect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,19 +37,26 @@ root.render(
             <div className="home-content">
               <h1>Hi I'm Areeba Farhan</h1>
               <div className="change-text">
-                <h3> And I'm &nbsp;</h3>
-                <h3>
-                  <span className="word">
-                 
+                <h3>And I'm </h3>
+                  <span className='auto-type'>
+                    <Typewriter
+                       options={{
+                        autoStart: true,
+                        loop: true,
+                        delay: 40,
+                        strings: ["Frontend Developer", "React Developer", "UI & UX Designer"]
+
+                       }}
+                    />
+
                   </span>
-                </h3>
               </div>
 
               <p>Product Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ea itaque est? Suscipit placeat architecto est vitae, aperiam tempora delectus quasi, earum, numquam nulla nemo quod? Sed officia in tempore.</p>
 
 
               <div className="btn-box">
-                <a href="/btn" className="btn">Download CV</a>
+                <a href="#UpdateCV.pdf"  className="btn">Download CV</a>
                 <a href="/btn" className="btn">Hire Me Now!</a>
               </div>
 
