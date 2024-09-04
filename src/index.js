@@ -44,7 +44,7 @@ root.render(
                         autoStart: true,
                         loop: true,
                         delay: 40,
-                        strings: ["Frontend Developer", "React Developer", "UI & UX Designer"]
+                        strings: ["Frontend Developer", "React Frontend Developer", "UI & UX Designer"]
 
                        }}
                     />
@@ -52,20 +52,19 @@ root.render(
                   </span>
               </div>
 
-              <p>Product Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis ea itaque est? Suscipit placeat architecto est vitae, aperiam tempora delectus quasi, earum, numquam nulla nemo quod? Sed officia in tempore.</p>
+              <p>I passionate front-end React developer. I specialize in creating visually appealing and user-friendly websites using HTML, CSS, Bootstrap, JavaScript, and React. I love bringing designs to life and ensuring they work flawlessly across all devices. My work focuses on clean, efficient code and engaging user experiences</p>
 
 
               <div className="btn-box">
                 <a href="#UpdateCV.pdf"  className="btn">Download CV</a>
-                <a href="/btn" className="btn">Hire Me Now!</a>
+                <a href="#contact" className="btn">Hire Me Now!</a>
               </div>
 
 
               <div className="social-icons">
-                <a href="/facebook" title='facebook'><i className='bx bxl-facebook'></i></a>
-                <a href="/instagram"  title='instagram'><i className='bx bxl-instagram' ></i></a>
-                <a href="/linkedin"  title='linkedin'><i className='bx bxl-linkedin' ></i></a>
-                <a href="/github"  title='github'><i className='bx bxl-github' ></i></a>
+                <a href="mailto:areebakhan1454771@gmail.com"  title='email'><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/areeba-farhan-4ba63925b/"  title='linkedin'><i className='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Areeba-Farhan1234"  title='github'><i className='bx bxl-github' ></i></a>
               </div>
             </div>
 
@@ -89,8 +88,14 @@ root.render(
               <span>Let me introduce myself</span>
               <h2>About Me</h2>
               <h3>A story of good</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae maiores adipisci tenetur expedita doloribus, eos dicta officiis quisquam inventore excepturi quidem neque fugit aut voluptates aperiam sed molesti Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas suscipit fugiat tempore, eos delectus facilis commodi porro corrupti dolores, non ratione consectetur dignissimos odit! Assumenda reiciendis blanditiis dolor distinctio alias.ae esse reprehenderit.</p>
-              
+              <p>
+              My name is Areeba Farhan, and I am a dedicated Computer Science student from Karachi University, specializing in front-end web development with React.js. My journey into the world of web development began with a fascination for how the web connects people and ideas across the globe. This curiosity quickly turned into a passion as I immersed myself in learning the intricacies of coding and design.
+
+              From the early days of exploring HTML and CSS, I was captivated by the ability to bring ideas to life on the screen. The logical structure of code combined with the creativity of design felt like a perfect blend, and I knew I had found my calling. My academic journey, supplemented by three impactful internships, has allowed me to develop a strong foundation in front-end technologies. Each internship provided me with valuable hands-on experience, enabling me to contribute to real-world projects and hone my skills in creating user-friendly, responsive web applications.
+
+              One of the defining moments in my development journey was earning the CS50X Computer Science certificate from Harvard University. This rigorous course deepened my understanding of the core principles that underpin modern software development. It also instilled in me a disciplined approach to problem-solving, which I now apply to every project I undertake. Alongside this, I have proudly earned certificates from <strong>Meta, Google, Alison, and Great Learning</strong>, each contributing to my ever-growing knowledge base.
+              </p>
+
             <div className="btn-box">
               <a href="/" className='btn'>Read More!</a>
             </div>
@@ -193,7 +198,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>Figma</p>
-                    <p>79%</p>
+                    <p>59%</p>
                   </div>
                   <div className="bar">
                     <span className='figma'></span>

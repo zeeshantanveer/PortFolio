@@ -240,7 +240,7 @@ section {
 .social-icons {
   margin-top: 8rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 220px;
   height: 40px;
 }
@@ -372,6 +372,7 @@ About Section */
   margin-bottom: 1.5rem;
   line-height: 1.6rem;
 }
+
 
 
 /* Services Section */
@@ -517,7 +518,7 @@ About Section */
 }
 
 .skill-bar .bar .figma {
-  width: 79%;
+  width: 59%;
   animation: figma 5s;
 }
 
@@ -836,7 +837,7 @@ Footer a i {
   }
   
   100% {
-    width: 79%;
+    width: 59%;
   }
 }
 
