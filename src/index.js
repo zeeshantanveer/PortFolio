@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import PortfolioSection from './sections/portfolio';
 import Typewriter from 'typewriter-effect';
+import ContactForm from "./sections/contact-form";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -52,19 +53,19 @@ root.render(
                   </span>
               </div>
 
-              <p>I passionate front-end React developer. I specialize in creating visually appealing and user-friendly websites using HTML, CSS, Bootstrap, JavaScript, and React. I love bringing designs to life and ensuring they work flawlessly across all devices. My work focuses on clean, efficient code and engaging user experiences</p>
+              <p>I passionate front-end React developer. I specialize in creating visually appealing and user-friendly websites using HTML, CSS, Bootstrap, Tailwind, JavaScript, and React. I love bringing designs to life and ensuring they work flawlessly across all devices. My work focuses on clean, efficient code and engaging user experiences</p>
 
 
               <div className="btn-box">
-                <a href="#UpdateCV.pdf"  className="btn">Download CV</a>
-                <a href="#contact" className="btn">Hire Me Now!</a>
+                <a href={'Areeba Farhan CV.pdf'} download={'Areeba Farhan CV.pdf'} className="btn">Download CV</a>
+                <a href="mailto:areebakhan1454771@gmail.com" className="btn">Hire Me Now!</a>
               </div>
 
 
               <div className="social-icons">
                 <a href="mailto:areebakhan1454771@gmail.com"  title='email'><i class='bx bxs-envelope'></i></a>
                 <a href="https://www.linkedin.com/in/areeba-farhan-4ba63925b/"  title='linkedin'><i className='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/Areeba-Farhan1234"  title='github'><i className='bx bxl-github' ></i></a>
+                <a href="https://github.com/Areeba-Farhan1234" title='github'><i className='bx bxl-github' ></i></a>
               </div>
             </div>
 
@@ -96,9 +97,9 @@ root.render(
               One of the defining moments in my development journey was earning the CS50X Computer Science certificate from Harvard University. This rigorous course deepened my understanding of the core principles that underpin modern software development. It also instilled in me a disciplined approach to problem-solving, which I now apply to every project I undertake. Alongside this, I have proudly earned certificates from <strong>Meta, Google, Alison, and Great Learning</strong>, each contributing to my ever-growing knowledge base.
               </p>
 
-            <div className="btn-box">
+            {/* <div className="btn-box">
               <a href="/" className='btn'>Read More!</a>
-            </div>
+            </div> */}
             </div>
 
           </section>
@@ -197,11 +198,11 @@ root.render(
 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>Figma</p>
+                    <p>Tailwind</p>
                     <p>59%</p>
                   </div>
                   <div className="bar">
-                    <span className='figma'></span>
+                    <span className='tailwind'></span>
                   </div>
                 </div>
 
@@ -248,46 +249,31 @@ root.render(
                         <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
                         <circle className='path path-2'  cx={"100"} cy={"100"} r={"80"}></circle>
                     </svg>
-                    <div className='Percentage'>90%</div>
-                    <div className='text'>Creativity</div>
+                    <div className='Percentage'>65%</div>
+                    <div className='text'>Communication</div>
                   </div>
 
-                  <div className="radial-bar">
-                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
-                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
-                        <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
-                    </svg>
-                    <div className='Percentage'>90%</div>
-                    <div className='text'>Creativity</div>
-                  </div>
+                </div>
 
-                  <div className="radial-bar">
-                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
-                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
-                        <circle className='path path-4'  cx={"100"} cy={"100"} r={"80"}></circle>
-                    </svg>
-                    <div className='Percentage'>90%</div>
-                    <div className='text'>Creativity</div>
-                  </div>
+                <div className="radial-bars">
+                    
+                   <div className="radial-bar">
+                        <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                            <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                            <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                        </svg>
+                        <div className='Percentage'>75%</div>
+                        <div className='text'>Problem Sloving</div>
+                    </div>
 
-                  <div className="radial-bar">
-                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
-                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
-                        <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
-                    </svg>
-                    <div className='Percentage'>90%</div>
-                    <div className='text'>Creativity</div>
-                  </div>
-
-                  <div className="radial-bar">
-                    <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
-                        <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
-                        <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
-                    </svg>
-                    <div className='Percentage'>90%</div>
-                    <div className='text'>Creativity</div>
-                  </div>
-
+                    <div className="radial-bar">
+                        <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                            <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                            <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                        </svg>
+                        <div className='Percentage'>85%</div>
+                        <div className='text'>Team Work</div>
+                    </div>
                 </div>
 
               </div>
@@ -302,7 +288,7 @@ root.render(
 
             {/* CONTACT-SECTION */}
 
-          <section id="contact" className="contact">
+          {/* <section id="contact" className="contact">
             
               <div className="main-text">
                 <span>ask me question </span>
@@ -321,7 +307,17 @@ root.render(
                   <button type='submit' className='btn'>Send Me</button>
                 </div>
               </form>
-          </section>
+          </section> */}
+
+
+          <section id="contact" className="contact">
+          <div className="main-text">
+              <span>ask me question </span>
+              <h2>Contact Me</h2>
+          </div>
+
+          <ContactForm />
+      </section>
 
             {/* FOOTER-SECTION */}
 
