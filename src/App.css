@@ -448,6 +448,7 @@ About Section */
 .service-box h3 {
   margin-top: 10px;
   font-size: 1.5rem;
+  padding: 10px;
 }
 
 .service-box p {
@@ -456,6 +457,9 @@ About Section */
  letter-spacing: 1px;
  color: #bdbdbd;
  line-height: 1.6;
+ padding: 20px;
+ text-align: center;
+ justify-content: center;
 }
 
 /* Skills Section */
@@ -511,32 +515,32 @@ About Section */
 }
 
 .skill-bar .bar .html {
-  width: 87%;
+  width: 99%;
   animation: html 2s;
 }
 
 .skill-bar .bar .css {
-  width: 62%;
+  width: 90%;
   animation: css 3s;
 }
 
 .skill-bar .bar .bootstrap {
-  width: 77%;
+  width: 87%;
   animation: bootstrap 4s;
 }
 
 .skill-bar .bar .tailwind {
-  width: 59%;
+  width: 55%;
   animation: tailwind 5s;
 }
 
 .skill-bar .bar .javascript {
-  width: 57%;
+  width: 64%;
   animation: javascript 6s;
 }
 
 .skill-bar .bar .react-js {
-  width: 52%;
+  width: 55%;
   animation: react-js 7s;
 }
 
@@ -816,8 +820,12 @@ Footer a i {
 /* @keyframes */
 
 @keyframes html {
-  0%,  100% {
-    width: 87%;
+  0% {
+    width: 0;
+  }
+  
+  100% {
+    width: 99%;
   }
 }
 
@@ -827,7 +835,7 @@ Footer a i {
   }
   
   100% {
-    width: 62%;
+    width: 90%;
   }
 }
 
@@ -837,7 +845,7 @@ Footer a i {
   }
   
   100% {
-    width: 77%;
+    width: 87%;
   }
 }
 
@@ -847,7 +855,7 @@ Footer a i {
   }
   
   100% {
-    width: 59%;
+    width: 55%;
   }
 }
 
@@ -857,7 +865,7 @@ Footer a i {
   }
   
   100% {
-    width: 57%;
+    width: 64%;
   }
 }
 
@@ -867,7 +875,7 @@ Footer a i {
   }
   
   100% {
-    width: 52%;
+    width: 55%;
   }
 }
 

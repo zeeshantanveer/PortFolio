@@ -16,7 +16,7 @@ root.render(
           {/* NAVBAR-SECTION */}
         <header>
             <div className='logo'>
-              <span>A</span>reeba.
+              <span>P</span>ortfolio.
             </div>
             <ul className='navList'>
               <li><a href="/home">Home</a></li>
@@ -115,38 +115,37 @@ root.render(
             <div className="section_services">
               <div className="service-box">
                 <i className='bx bxs-layer service-icon'></i>
-                <h3>React Developer</h3>
+                <h3>Front-End Development</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aliquam, excepturi ipsam perferendis totam. Vitae quaerat nostrum enim. Omnis dicta, dolores iusto similique possimus nisi excepturi itaque. Tempore, perferendis! Lorem ipsum dolor.
+                Build dynamic, interactive, or visually attractive sites that fit your specifications.
+
+                I help create responsive, user-friendly websites using modern front-end technologies like React, HTML, CSS, Bootstrap, Tailwind, and JavaScript. My focus is on delivering high-performance  web applications that are fast, efficient, and scalable to ensure an engaging experience for your users.
                 </p>
-                <div className="btn-box service-btn">
-                  <a href="/" className='btn'>Read More!</a>
-                </div>
+              
 
               </div>
 
               <div className="service-box">
                 <i className='bx bx-desktop service-icon'></i>
-                <h3>React Developer</h3>
+                <h3>Responsive Web Design</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aliquam, excepturi ipsam perferendis totam. Vitae quaerat nostrum enim. Omnis dicta, dolores iusto similique possimus nisi excepturi itaque. Tempore, perferendis! Lorem ipsum dolor.
+                Ensure your website looks great on all devices with mobile-first design.
+                
+                I will ensure your website is responsive to whatever screen, from mobile to desktop. I design websites using Bootstrap, CSS, Bootstrap, Tailwind, and modern layout techniques to make them fluid and functional on every platform. The user receives the same seamless experience regardless of whether on a mobile or computer device.
+
                 </p>
-                <div className="btn-box service-btn">
-                  <a href="/" className='btn'>Read More!</a>
-                </div>
-              
+            
               </div>
 
               <div className="service-box">
                 <i className='bx bx-code-alt service-icon'></i>
-                <h3>React Developer</h3>
+                <h3>UI / UX Design</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores aliquam, excepturi ipsam perferendis totam. Vitae quaerat nostrum enim. Omnis dicta, dolores iusto similique possimus nisi excepturi itaque. Tempore, perferendis! Lorem ipsum dolor.
+                Design intuitive user interfaces that prioritize user experience and engagement.
+
+                I place a strong emphasis on developing clean user-friendly interfaces using modern UI/UX principles. I make sure that the websites and applications I develop are not only aesthetically pleasing but also user-friendly to navigate and use, thereby giving maximum user satisfaction and retention.
                 </p>
-                <div className="btn-box service-btn">
-                  <a href="/" className='btn'>Read More!</a>
-                </div>
-              
+             
               </div>
 
             </div>
@@ -168,7 +167,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>Html</p>
-                    <p>87%</p>
+                    <p>99%</p>
                   </div>
                   <div className="bar">
                     <span className='html'></span>
@@ -178,7 +177,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>CSS</p>
-                    <p>62%</p>
+                    <p>90%</p>
                   </div>
                   <div className="bar">
                     <span className='css'></span>
@@ -189,7 +188,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>Bootstrap</p>
-                    <p>77%</p>
+                    <p>87%</p>
                   </div>
                   <div className="bar">
                     <span className='bootstrap'></span>
@@ -199,7 +198,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>Tailwind</p>
-                    <p>59%</p>
+                    <p>55%</p>
                   </div>
                   <div className="bar">
                     <span className='tailwind'></span>
@@ -210,7 +209,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>JavaScript</p>
-                    <p>57%</p>
+                    <p>64%</p>
                   </div>
                   <div className="bar">
                     <span className='javascript'></span>
@@ -221,7 +220,7 @@ root.render(
                 <div className="skill-bar">
                   <div className="info">
                     <p>React JS</p>
-                    <p>52%</p>
+                    <p>55%</p>
                   </div>
                   <div className="bar">
 
