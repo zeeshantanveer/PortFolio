@@ -69,24 +69,23 @@ root.render(
               </div>
             </div>
 
-            <div className="home-image">
-              <div className="img-box">
-                <img src='img/1.png' alt='home'/>
+              <div className="home-image">
+                    <div className="img-box">
+                      <img src='img/HeroImg.png' alt='Home' className="profile-img"/>
+                    </div>
               </div>
-            </div>
           </section>
 
             {/* ABOUT-SECTION */}
 
           <section id="about" className="about">
-            <div className="img-box">
-
-              <img src="/img/12.png" alt="" />
-
-            </div>
+     
+                    <div className="img-box">
+                      <img src='img/HeroImg.png' alt='Home' className="profile-img"/>
+                    </div>
+     
 
             <div className="about-content">
-              <span>Let me introduce myself</span>
               <h2>About Me</h2>
               <h3>A story of good</h3>
               <p>
