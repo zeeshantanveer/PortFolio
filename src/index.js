@@ -117,8 +117,7 @@ root.render(
                 <h3>Front-End Development</h3>
                 <p>
                 Build dynamic, interactive, or visually attractive sites that fit your specifications.
-
-                I help create responsive, user-friendly websites using modern front-end technologies like React, HTML, CSS, Bootstrap, Tailwind, and JavaScript. My focus is on delivering high-performance  web applications that are fast, efficient, and scalable to ensure an engaging experience for your users.
+                I help create responsive, user-friendly websites using modern front-end technologies like React, HTML, CSS, Bootstrap, Tailwind, and JavaScript. My focus is on delivering high-performance web applications that are fast, efficient, and scalable to ensure an engaging experience for your users.
                 </p>
               
 
@@ -128,9 +127,9 @@ root.render(
                 <i className='bx bx-desktop service-icon'></i>
                 <h3>Responsive Web Design</h3>
                 <p>
-                Ensure your website looks great on all devices with mobile-first design.
-                
-                I will ensure your website is responsive to whatever screen, from mobile to desktop. I design websites using Bootstrap, CSS, Bootstrap, Tailwind, and modern layout techniques to make them fluid and functional on every platform. The user receives the same seamless experience regardless of whether on a mobile or computer device.
+                  Ensure your website looks great on all devices with mobile-first design.
+                  I will ensure your website is responsive to any screen, from mobile to desktop. I design websites using CSS, Bootstrap, Tailwind, and modern layout techniques to make them fluid and functional on every platform. The user receives the same seamless experience, whether on a mobile or computer device.
+
 
                 </p>
             
@@ -141,8 +140,7 @@ root.render(
                 <h3>UI / UX Design</h3>
                 <p>
                 Design intuitive user interfaces that prioritize user experience and engagement.
-
-                I place a strong emphasis on developing clean user-friendly interfaces using modern UI/UX principles. I make sure that the websites and applications I develop are not only aesthetically pleasing but also user-friendly to navigate and use, thereby giving maximum user satisfaction and retention.
+                I place a strong emphasis on developing clean, user-friendly interfaces using modern UI/UX principles. I make sure that the websites and applications I develop are not only aesthetically pleasing but also easy to navigate and use, thereby giving maximum user satisfaction and retention.
                 </p>
              
               </div>
