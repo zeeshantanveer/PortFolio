@@ -12,6 +12,8 @@ root.render(
   <React.StrictMode>
     <App />
     <>
+
+
     
           {/* NAVBAR-SECTION */}
         <header>
@@ -31,6 +33,39 @@ root.render(
             <div id="menu-icon" className='bx bx-menu'>
             </div>
           </header>
+              {/* <header>
+            <div className='logo'>
+              <span>P</span>ortfolio.
+            </div>
+            <div id="menu-icon" className='bx bx-menu' onClick={handleClick}>
+              
+            </div>
+            <ul className='navList'>
+              <li><a href="/home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            </header> */}
+
+        {/* <header>
+            <div className='logo'>
+                <span>P</span>ortfolio.
+            </div>
+            <div id="menu-icon" className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'}`} onClick={handleClick}>
+                
+            </div>
+            <ul className={`navList ${isMenuOpen ? 'open' : ''}`}>
+                <li><a href="/home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header> */}
 
             {/* HOME-SECTION */}
 
@@ -284,28 +319,6 @@ root.render(
 
             {/* CONTACT-SECTION */}
 
-          {/* <section id="contact" className="contact">
-            
-              <div className="main-text">
-                <span>ask me question </span>
-                <h2>Contact Me</h2>
-              </div>
-
-              <form action="/" autocomplete="on">
-               
-                <input type="text" name='name' id='name' autoComplete='name' placeholder='Your Name' />
-                <input type="text" name='email' id='email' autoComplete='email' placeholder='Your Email' />
-                <input type="text" name='address' id='address' autoComplete='address' placeholder='Your Address' />
-                <input type="number" name='number' id='number' placeholder='Phone Number' />
-                <textarea name="mesg" id="mesg" cols={30} rows={10} placeholder='Your Message'></textarea>
-
-                <div className="btn-box formBtn">
-                  <button type='submit' className='btn'>Send Me</button>
-                </div>
-              </form>
-          </section> */}
-
-
           <section id="contact" className="contact">
           <div className="main-text">
               <span>ask me question </span>
@@ -331,3 +344,5 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+
