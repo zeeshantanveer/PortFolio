@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -6,68 +6,77 @@ import App from './App';
 import PortfolioSection from './sections/portfolio';
 import Typewriter from 'typewriter-effect';
 import ContactForm from "./sections/contact-form";
+import 'boxicons/css/boxicons.min.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
+const AppContainer = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Function to handle the menu toggle
+  const handleClick = () => {
+    setIsMenuOpen(prev => !prev);
+  };
+
+  useEffect(() => {
+    const menuLi = document.querySelectorAll('header ul li a');
+    const sections = document.querySelectorAll('section');
+    const header = document.querySelector('header');
+    const menuIcon = document.querySelector('#menu-icon');
+    const navList = document.querySelector('.navList');
+
+    // Function to highlight active menu item based on section scroll
+    const activeMenu = () => {
+      let len = sections.length;
+      while (--len && window.scrollY + 97 < sections[len].offsetTop) {}
+      menuLi.forEach(sec => sec.classList.remove('active'));
+      if (len >= 0) {
+        menuLi[len].classList.add('active');
+      }
+    };
+
+    // Function to handle sticky header and menu close on scroll
+    const handleScroll = () => {
+      header.classList.toggle('sticky', window.scrollY > 50);
+      // Close the menu if it is open when scrolling
+      if (isMenuOpen) {
+        setIsMenuOpen(false); // This will close the menu
+      }
+    };
+
+    // Set initial active menu
+    activeMenu();
+
+    // Add event listeners
+    window.addEventListener('scroll', activeMenu);
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup event listeners on component unmount
+    return () => {
+      window.removeEventListener('scroll', activeMenu);
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isMenuOpen]); // Use isMenuOpen dependency to close the menu on scroll
+  
+  return (
     <>
+      <App />
+      {/* NAVBAR-SECTION */}
+      <header>
+        <div className='logo'>
+          <span>P</span>ortfolio.
+        </div>
+        <ul className={`navList ${isMenuOpen ? 'open' : ''}`}>
+          <li><a href="/home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-
-    
-          {/* NAVBAR-SECTION */}
-        <header>
-            <div className='logo'>
-              <span>P</span>ortfolio.
-            </div>
-            <ul className='navList'>
-              <li><a href="/home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-
-
-            <div id="menu-icon" className='bx bx-menu'>
-            </div>
-          </header>
-              {/* <header>
-            <div className='logo'>
-              <span>P</span>ortfolio.
-            </div>
-            <div id="menu-icon" className='bx bx-menu' onClick={handleClick}>
-              
-            </div>
-            <ul className='navList'>
-              <li><a href="/home">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#services">Services</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-            </header> */}
-
-        {/* <header>
-            <div className='logo'>
-                <span>P</span>ortfolio.
-            </div>
-            <div id="menu-icon" className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'}`} onClick={handleClick}>
-                
-            </div>
-            <ul className={`navList ${isMenuOpen ? 'open' : ''}`}>
-                <li><a href="/home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </header> */}
-
-            {/* HOME-SECTION */}
+        <div id="menu-icon" className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'}`} onClick={handleClick}></div>
+      </header>
+      
+          {/* HOME-SECTION */}
 
           <section id="home" className="home">
             <div className="home-content">
@@ -106,7 +115,7 @@ root.render(
 
               <div className="home-image">
                     <div className="img-box">
-                      <img src='img/HeroImg.png' alt='Home' className="profile-img"/>
+                      <img src='img/Hero-Img.png' alt='Home' className="profile-img"/>
                     </div>
               </div>
           </section>
@@ -116,7 +125,7 @@ root.render(
           <section id="about" className="about">
      
                     <div className="img-box">
-                      <img src='img/HeroImg.png' alt='Home' className="profile-img"/>
+                      <img src='img/Hero-Img.png' alt='Home' className="profile-img"/>
                     </div>
      
 
@@ -336,7 +345,13 @@ root.render(
           </footer>
 
     </>
+  );
+};
 
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <AppContainer />
   </React.StrictMode>
 );
 
@@ -344,5 +359,3 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
