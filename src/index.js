@@ -20,8 +20,8 @@ const AppContainer = () => {
     const menuLi = document.querySelectorAll('header ul li a');
     const sections = document.querySelectorAll('section');
     const header = document.querySelector('header');
-    const menuIcon = document.querySelector('#menu-icon');
-    const navList = document.querySelector('.navList');
+    // const menuIcon = document.querySelector('#menu-icon');
+    // const navList = document.querySelector('.navList');
 
     // Function to highlight active menu item based on section scroll
     const activeMenu = () => {
