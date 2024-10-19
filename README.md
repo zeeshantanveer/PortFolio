@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Areeba Farhan's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio! I am Areeba Farhan, a passionate front-end developer specializing in HTML, CSS, Bootstrap, Tailwind, JavaScript, and React. This portfolio showcases my skills, projects, and experience in web development.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About Me](#about-me)
+- [Technologies Used](#technologies-used)
+- [Projects](#projects)
+- [Live Demo](#live-demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
 
-### `npm start`
+## About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I am a Computer Science student with a focus on front-end web development. I have completed multiple internships and have a strong background in creating responsive and interactive web applications. My goal is to continually learn and improve my skills while delivering high-quality work.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- HTML
+- CSS
+- Bootstrap
+- Tailwind
+- JavaScript
+- React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Projects
 
-### `npm run build`
+### 1. Weather Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A real-time weather dashboard that displays current weather and a 5-day forecast using the OpenWeatherMap API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [GitHub Repository](https://github.com/Areeba-Farhan1234/weather-dashboard)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. E-Commerce Website
 
-### `npm run eject`
+An online store with a responsive design, product listings, and a shopping cart feature.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [GitHub Repository](https://github.com/Areeba-Farhan1234/e-commerce-website)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Interactive Learning Module
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+An educational platform featuring multimedia content and quizzes to help users learn various subjects.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [GitHub Repository](https://github.com/Areeba-Farhan1234/interactive-learning-module)
 
-## Learn More
+### 4. Job Board Platform
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+A comprehensive job board with user authentication, job postings, and application tracking.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [GitHub Repository](https://github.com/Areeba-Farhan1234/job-board-platform)
 
-### Code Splitting
+## Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Check out my portfolio live at [Your Live Demo Link](https://portfolio-ten-psi-54.vercel.app/).
 
-### Analyzing the Bundle Size
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run this project locally, clone the repository:
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/Areeba-Farhan1234/portfolio.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd portfolio
 
-### Advanced Configuration
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
