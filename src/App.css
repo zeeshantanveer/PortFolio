@@ -523,7 +523,18 @@ section {
 
   .social-icons {
     margin-top: 2rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
+  }
+}
+
+@media (max-width: 570px) {
+    .btn-box {
+        width: 450px;
+        height: 45px;
+    }
+    .social-icons {
+      margin-top: 2rem;
+      margin-left: 8rem;
   }
 }
 
@@ -533,7 +544,7 @@ section {
   }
 
   .home {
-    padding: 80px 5%;
+    padding: 80px 2%;
     text-align: center;
   }
 
@@ -557,7 +568,7 @@ section {
   .btn-box {
     display: flex;
     justify-content: space-around;
-    width: 350px;
+    width: 330px;
     height: 45px;
   }
 
@@ -579,7 +590,16 @@ section {
   }
 }
 
-
+@media (max-width: 396px) {
+  .home-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    padding-left: 0;
+  }
+}
 
 /* About Section */
 .about {
@@ -1157,10 +1177,6 @@ section {
     text-align: center;
   }
 
-  .social-icons {
-    margin-top: 2rem;
-    margin-left: 14rem;
-  }
 }
 
 @media (max-width: 682px) {
