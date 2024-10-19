@@ -63,8 +63,18 @@ To run this project locally, clone the repository:
 git clone https://github.com/Areeba-Farhan1234/portfolio.git
 ```
 
+Navigate to the project directory:
+```bash
 cd portfolio
+```
 
+Install the required dependencies:
+```bash
 npm install
+```
 
+### Usage
+To start the development server, run:
+```bash
 npm start
+```
