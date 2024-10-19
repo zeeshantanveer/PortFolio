@@ -83,7 +83,7 @@ const AppContainer = () => {
               <h1>Hi I'm Areeba Farhan</h1>
               <div className="change-text">
                 <h3>And I'm </h3>
-                  <span className='auto-type'>
+                <span className='auto-type'>
                     <Typewriter
                        options={{
                         autoStart: true,
@@ -94,7 +94,7 @@ const AppContainer = () => {
                        }}
                     />
 
-                  </span>
+                </span>
               </div>
 
               <p>I passionate front-end React developer. I specialize in creating visually appealing and user-friendly websites using HTML, CSS, Bootstrap, Tailwind, JavaScript, and React. I love bringing designs to life and ensuring they work flawlessly across all devices. My work focuses on clean, efficient code and engaging user experiences</p>
