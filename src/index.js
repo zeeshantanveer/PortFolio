@@ -214,7 +214,6 @@ const AppContainer = () => {
                     <span className='css'></span>
                   </div>
                 </div>
-
                 
                 <div className="skill-bar">
                   <div className="info">
@@ -235,8 +234,6 @@ const AppContainer = () => {
                     <span className='tailwind'></span>
                   </div>
                 </div>
-
-
                 <div className="skill-bar">
                   <div className="info">
                     <p>Databases (MySQL, SQL Lite)</p>
@@ -246,7 +243,6 @@ const AppContainer = () => {
                     <span className='javascript'></span>
                   </div>
                 </div>
-
                 
                 <div className="skill-bar">
                   <div className="info">
@@ -279,15 +275,6 @@ const AppContainer = () => {
                   <div className="info">
                     <p>Python</p>
                     <p>70%</p>
-                  </div>
-                  <div className="bar">
-                    <span className='react-js'></span>
-                  </div>
-                </div>
-                <div className="skill-bar">
-                  <div className="info">
-                    <p>Debuging, Teamwork, Team Manageent and Multitasking</p>
-                    <p>99%</p>
                   </div>
                   <div className="bar">
                     <span className='react-js'></span>
@@ -334,7 +321,6 @@ const AppContainer = () => {
                     </div>
                 </div>
 
-
                 <div className="radial-bars">
                   <div className="radial-bar">
                     <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
@@ -371,10 +357,8 @@ const AppContainer = () => {
                         <div className='text'>Team Work</div>
                     </div>
                 </div>
-
               </div>
             </div>
-
           </section>
 
             {/* PORTFOLIO-SECTION */}
