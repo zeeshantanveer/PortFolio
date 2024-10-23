@@ -62,7 +62,7 @@ const AppContainer = () => {
       {/* NAVBAR-SECTION */}
       <header>
         <div className='logo'>
-          <span>P</span>ortfolio.
+          <span>Z</span>eeshan
         </div>
         <ul className={`navList ${isMenuOpen ? 'open' : ''}`}>
           <li><a href="/home">Home</a></li>
