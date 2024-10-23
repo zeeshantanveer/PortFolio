@@ -96,8 +96,6 @@ const AppContainer = () => {
                 </span>
               </div>
               <p>With over six years of experience as a Software Engineer, I am a highly motivated and results-driven professional, focused on solving complex problems and delivering innovative solutions. In my current role, I have successfully developed and automated e-commerce and shipping solutions for leading marketplaces such as Shopify, BigCommerce, and WooCommerce. My contributions include automating online order processing, product packaging, shipping rate calculations, shipment booking, and tracking, utilizing strong technical expertise and in-depth knowledge of SDLC principles.</p>
-              <p>I have also developed a direct printing utility for Windows (using .NET) and macOS (using Objective-C), allowing online merchants to streamline printing processes. This solution enables printing multiple shipping documents across different printers with a single click, bypassing the need for browser interaction, significantly enhancing efficiency.</p>
-              <p>I possess expertise in a wide range of programming languages and tools, including PHP, Laravel, React.js, and Python, and I am skilled in PHP-based framework development. I am now seeking new opportunities to bring my technical acumen and problem-solving skills to a forward-thinking team.</p>
               <div className="btn-box">
                 <a href={'Zeeshan Tanveer CV.pdf'} download={'Zeeshan Tanveer CV.pdf'} className="btn">Download CV</a>
                 <a href="mailto:z.tanvir22@gmail.com" className="btn">Hire Me Now!</a>
@@ -130,14 +128,8 @@ const AppContainer = () => {
             <div className="about-content">
               <h2>About Me</h2>
               <h3>A story of good</h3>
-              <p>
-              My name is Zeeshan Tanveer, and I am a dedicated Computer Science student from Karachi University, specializing in front-end web development with React.js. My journey into the world of web development began with a fascination for how the web connects people and ideas across the globe. This curiosity quickly turned into a passion as I immersed myself in learning the intricacies of coding and design.
-
-              From the early days of exploring HTML and CSS, I was captivated by the ability to bring ideas to life on the screen. The logical structure of code combined with the creativity of design felt like a perfect blend, and I knew I had found my calling. My academic journey, supplemented by three impactful internships, has allowed me to develop a strong foundation in front-end technologies. Each internship provided me with valuable hands-on experience, enabling me to contribute to real-world projects and hone my skills in creating user-friendly, responsive web applications.
-
-              One of the defining moments in my development journey was earning the CS50X Computer Science certificate from Harvard University. This rigorous course deepened my understanding of the core principles that underpin modern software development. It also instilled in me a disciplined approach to problem-solving, which I now apply to every project I undertake. Alongside this, I have proudly earned certificates from <strong>Meta, Google, Alison, and Great Learning</strong>, each contributing to my ever-growing knowledge base.
-              </p>
-
+              <p>I have extensive experience working on e-commerce websites and shipping solutions, focusing on integrating e-commerce platforms with shipping providers to streamline order fulfillment. Additionally, I developed a direct printing utility for both Windows (using .NET) and macOS (using Objective-C), enabling online merchants to efficiently print multiple shipping documents across different printers with a single click. This solution bypasses browser interaction, significantly improving operational efficiency.</p>
+              <p>I possess expertise in a wide range of programming languages and tools, including PHP, Laravel, React.js, and Python. I am now seeking new opportunities to bring my technical acumen and problem-solving skills to a forward-thinking team.</p>
             {/* <div className="btn-box">
               <a href="/" className='btn'>Read More!</a>
             </div> */}
@@ -205,7 +197,7 @@ const AppContainer = () => {
 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>Html</p>
+                    <p>HTML, CSS, BootStrap, Tailwind</p>
                     <p>99%</p>
                   </div>
                   <div className="bar">
@@ -215,7 +207,7 @@ const AppContainer = () => {
 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>CSS</p>
+                    <p>JavaScript , JQuery</p>
                     <p>90%</p>
                   </div>
                   <div className="bar">
@@ -226,8 +218,8 @@ const AppContainer = () => {
                 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>Bootstrap</p>
-                    <p>87%</p>
+                    <p>React JS, NodeJs</p>
+                    <p>65%</p>
                   </div>
                   <div className="bar">
                     <span className='bootstrap'></span>
@@ -236,8 +228,8 @@ const AppContainer = () => {
 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>Tailwind</p>
-                    <p>55%</p>
+                    <p>PHP, Laravel Framework</p>
+                    <p>90%</p>
                   </div>
                   <div className="bar">
                     <span className='tailwind'></span>
@@ -247,8 +239,8 @@ const AppContainer = () => {
 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>JavaScript</p>
-                    <p>64%</p>
+                    <p>Databases (MySQL, SQL Lite)</p>
+                    <p>90%</p>
                   </div>
                   <div className="bar">
                     <span className='javascript'></span>
@@ -258,11 +250,55 @@ const AppContainer = () => {
                 
                 <div className="skill-bar">
                   <div className="info">
-                    <p>React JS</p>
-                    <p>55%</p>
+                    <p>REST APIs, SOAP and API Documentation Development</p>
+                    <p>90%</p>
                   </div>
                   <div className="bar">
-
+                    <span className='react-js'></span>
+                  </div>
+                </div>
+                <div className="skill-bar">
+                  <div className="info">
+                    <p>Data Security</p>
+                    <p>99%</p>
+                  </div>
+                  <div className="bar">
+                    <span className='react-js'></span>
+                  </div>
+                </div>
+                <div className="skill-bar">
+                  <div className="info">
+                    <p>C++</p>
+                    <p>80%</p>
+                  </div>
+                  <div className="bar">
+                    <span className='react-js'></span>
+                  </div>
+                </div>
+                <div className="skill-bar">
+                  <div className="info">
+                    <p>Python</p>
+                    <p>70%</p>
+                  </div>
+                  <div className="bar">
+                    <span className='react-js'></span>
+                  </div>
+                </div>
+                <div className="skill-bar">
+                  <div className="info">
+                    <p>Debuging, Teamwork, Team Manageent and Multitasking</p>
+                    <p>99%</p>
+                  </div>
+                  <div className="bar">
+                    <span className='react-js'></span>
+                  </div>
+                </div>
+                <div className="skill-bar">
+                  <div className="info">
+                    <p>GIT, Jira and Prompt Engineering</p>
+                    <p>99%</p>
+                  </div>
+                  <div className="bar">
                     <span className='react-js'></span>
                   </div>
                 </div>
