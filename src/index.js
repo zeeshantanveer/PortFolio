@@ -308,7 +308,34 @@ const AppContainer = () => {
               <div className="skill-right">
                 <h3>Professional Skills</h3>
                 <div className="radial-bars">
+                <div className="radial-bar">
+                        <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                            <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                            <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                        </svg>
+                        <div className='Percentage'>99%</div>
+                        <div className='text'>Debuging</div>
+                    </div>
+                    <div className="radial-bar">
+                        <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                            <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                            <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                        </svg>
+                        <div className='Percentage'>99%</div>
+                        <div className='text'>Team Manageent</div>
+                    </div>
+                    <div className="radial-bar">
+                        <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
+                            <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
+                            <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
+                        </svg>
+                        <div className='Percentage'>99%</div>
+                        <div className='text'>Multitasking</div>
+                    </div>
+                </div>
 
+
+                <div className="radial-bars">
                   <div className="radial-bar">
                     <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
                         <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
@@ -317,41 +344,35 @@ const AppContainer = () => {
                     <div className='Percentage'>90%</div>
                     <div className='text'>Creativity</div>
                   </div>
-
                   <div className="radial-bar">
                     <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
                         <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
                         <circle className='path path-2'  cx={"100"} cy={"100"} r={"80"}></circle>
                     </svg>
-                    <div className='Percentage'>65%</div>
+                    <div className='Percentage'>90%</div>
                     <div className='text'>Communication</div>
                   </div>
-
                 </div>
-
                 <div className="radial-bars">
-                    
                    <div className="radial-bar">
                         <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
                             <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
                             <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
                         </svg>
-                        <div className='Percentage'>75%</div>
+                        <div className='Percentage'>90%</div>
                         <div className='text'>Problem Sloving</div>
                     </div>
-
                     <div className="radial-bar">
                         <svg x={"0px"} y={"0px"} viewBox='0 0 200 200'>
                             <circle className='progress-bar' cx={"100"} cy={"100"} r={"80"}></circle>
                             <circle className='path path-3'  cx={"100"} cy={"100"} r={"80"}></circle>
                         </svg>
-                        <div className='Percentage'>85%</div>
+                        <div className='Percentage'>99%</div>
                         <div className='text'>Team Work</div>
                     </div>
                 </div>
 
               </div>
-
             </div>
 
           </section>
