@@ -80,7 +80,7 @@ const AppContainer = () => {
 
           <section id="home" className="home">
             <div className="home-content">
-              <h1>Hi I'm Areeba Farhan</h1>
+              <h1>Hi I'm Zeeshan Tanveer</h1>
               <div className="change-text">
                 <h3>And I'm </h3>
                 <span className='auto-type'>
@@ -101,15 +101,15 @@ const AppContainer = () => {
 
 
               <div className="btn-box">
-                <a href={'Areeba Farhan CV.pdf'} download={'Areeba Farhan CV.pdf'} className="btn">Download CV</a>
-                <a href="mailto:areebakhan1454771@gmail.com" className="btn">Hire Me Now!</a>
+                <a href={'Zeeshan Tanveer CV.pdf'} download={'Zeeshan Tanveer CV.pdf'} className="btn">Download CV</a>
+                <a href="mailto:z.tanvir22@gmail.com" className="btn">Hire Me Now!</a>
               </div>
 
 
               <div className="social-icons">
-                <a href="mailto:areebakhan1454771@gmail.com"  title='email'><i class='bx bxs-envelope'></i></a>
-                <a href="https://www.linkedin.com/in/areeba-farhan-4ba63925b/"  title='linkedin'><i className='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/Areeba-Farhan1234" title='github'><i className='bx bxl-github' ></i></a>
+                <a href="mailto:z.tanvir22@gmail.com"  title='email'><i class='bx bxs-envelope'></i></a>
+                <a href="https://www.linkedin.com/in/zeeshan-tanveer/"  title='linkedin'><i className='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/zeeshantanveer" title='github'><i className='bx bxl-github' ></i></a>
               </div>
             </div>
 
@@ -133,7 +133,7 @@ const AppContainer = () => {
               <h2>About Me</h2>
               <h3>A story of good</h3>
               <p>
-              My name is Areeba Farhan, and I am a dedicated Computer Science student from Karachi University, specializing in front-end web development with React.js. My journey into the world of web development began with a fascination for how the web connects people and ideas across the globe. This curiosity quickly turned into a passion as I immersed myself in learning the intricacies of coding and design.
+              My name is Zeeshan Tanveer, and I am a dedicated Computer Science student from Karachi University, specializing in front-end web development with React.js. My journey into the world of web development began with a fascination for how the web connects people and ideas across the globe. This curiosity quickly turned into a passion as I immersed myself in learning the intricacies of coding and design.
 
               From the early days of exploring HTML and CSS, I was captivated by the ability to bring ideas to life on the screen. The logical structure of code combined with the creativity of design felt like a perfect blend, and I knew I had found my calling. My academic journey, supplemented by three impactful internships, has allowed me to develop a strong foundation in front-end technologies. Each internship provided me with valuable hands-on experience, enabling me to contribute to real-world projects and hone my skills in creating user-friendly, responsive web applications.
 
