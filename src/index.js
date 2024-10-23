@@ -89,7 +89,7 @@ const AppContainer = () => {
                         autoStart: true,
                         loop: true,
                         delay: 40,
-                        strings: ["Software Engineer", "Full Stack Developer", "PHP - Laravel Framework", "React JS", "Python", "Specialist in e-commerce and shipping solutions"]
+                        strings: ["Software Engineer", "Full Stack Developer", "PHP - Laravel Developer", "Python Developer", "Specialist in e-commerce and shipping solutions"]
                        }}
                     />
 
