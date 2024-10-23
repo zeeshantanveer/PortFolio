@@ -89,17 +89,15 @@ const AppContainer = () => {
                         autoStart: true,
                         loop: true,
                         delay: 40,
-                        strings: ["Frontend Developer", "React Frontend Developer", "UI & UX Designer"]
-
+                        strings: ["Software Engineer", "Full Stack Developer", "PHP - Laravel Framework", "React JS", "Python", "Specialist in e-commerce and shipping solutions"]
                        }}
                     />
 
                 </span>
               </div>
-
-              <p>I passionate front-end React developer. I specialize in creating visually appealing and user-friendly websites using HTML, CSS, Bootstrap, Tailwind, JavaScript, and React. I love bringing designs to life and ensuring they work flawlessly across all devices. My work focuses on clean, efficient code and engaging user experiences</p>
-
-
+              <p>With over six years of experience as a Software Engineer, I am a highly motivated and results-driven professional, focused on solving complex problems and delivering innovative solutions. In my current role, I have successfully developed and automated e-commerce and shipping solutions for leading marketplaces such as Shopify, BigCommerce, and WooCommerce. My contributions include automating online order processing, product packaging, shipping rate calculations, shipment booking, and tracking, utilizing strong technical expertise and in-depth knowledge of SDLC principles.</p>
+              <p>I have also developed a direct printing utility for Windows (using .NET) and macOS (using Objective-C), allowing online merchants to streamline printing processes. This solution enables printing multiple shipping documents across different printers with a single click, bypassing the need for browser interaction, significantly enhancing efficiency.</p>
+              <p>I possess expertise in a wide range of programming languages and tools, including PHP, Laravel, React.js, and Python, and I am skilled in PHP-based framework development. I am now seeking new opportunities to bring my technical acumen and problem-solving skills to a forward-thinking team.</p>
               <div className="btn-box">
                 <a href={'Zeeshan Tanveer CV.pdf'} download={'Zeeshan Tanveer CV.pdf'} className="btn">Download CV</a>
                 <a href="mailto:z.tanvir22@gmail.com" className="btn">Hire Me Now!</a>
